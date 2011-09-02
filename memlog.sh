@@ -8,7 +8,7 @@ process_exists () {
 }
 
 print_process_memory () {
-  /bin/echo -e "$(pmap $$ | tail -n1 | awk '{print $2}')\t$(date)"
+  /bin/echo -e "$(pmap $PID | tail -n1 | awk '{print $2}')\t$(date)"
 }
 
 while process_exists $PID; do

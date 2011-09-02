@@ -1,1 +1,1 @@
-Read the script. It's only, like 10 lines.
+Read the code. It's only, like 10 lines.
